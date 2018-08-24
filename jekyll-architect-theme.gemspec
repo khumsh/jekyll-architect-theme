@@ -1,14 +1,14 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-architect-theme"
+  spec.name          = "KHU MSH"
   spec.version       = "0.1.0"
-  spec.authors       = ["Pietro F. Menna"]
-  spec.email         = ["pietromenna@yahoo.com"]
+  spec.authors       = ["Moon Seok Ho"]
+  spec.email         = ["msh0614@khu.ac.kr"]
 
   spec.summary       = %q{Kyeong Hee University Software Convergence}
   spec.homepage      = "https://github.com/khumsh/khumsh.github.io"
-  spec.license       = "MIT"
+
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
 
