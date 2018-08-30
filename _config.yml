@@ -2,7 +2,7 @@
 name:         KHU SWCON Moon Seok Ho
 tagline:      Hello World !
 baseurl:      ""
-locale:       "en"
+locale:       ""
 
 # Gems
 gems:
