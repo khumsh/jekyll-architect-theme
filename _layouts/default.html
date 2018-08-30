@@ -14,17 +14,6 @@
     <![endif]-->
 
     <title> {{ page.title }} </title>
-    
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="alternate" type="application/rss+xml"
-      title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-    {% if jekyll.environment == 'production' and site.google_analytics %}
-      {% include google-analytics.html %}
-    {% endif %}
-    <!-- START OF RELEVANT PART -->
-    <script async src="https://just-comments.com/w.js"></script>
-    <!-- END OF RELEVANT PART -->
   </head>
 
   <body>
